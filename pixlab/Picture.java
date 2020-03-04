@@ -174,7 +174,11 @@ public class Picture extends SimplePicture
       }
     }
   }
-  
+  /** mirror arms*/
+  public void mirrorArms(){
+      
+    
+    }
   /** copy from the passed fromPic to the
     * specified startRow and startCol in the
     * current picture
