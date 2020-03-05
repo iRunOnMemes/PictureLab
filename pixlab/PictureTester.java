@@ -20,7 +20,7 @@ public class PictureTester
   /** Method to test mirrorVertical */
   public static void testMirrorVertical()
   {
-    Picture caterpillar = new Picture("caterpillar.jpg");
+    Picture caterpillar = new Picture("t1.jpg");
     caterpillar.explore();
     caterpillar.mirrorVertical();
     caterpillar.explore();
@@ -28,7 +28,7 @@ public class PictureTester
   /**Method to test mirrorVerticalRightToLeft*/
   public static void testMirrorVerticalRightToLeft()
   {
-    Picture caterpillar = new Picture("caterpillar.jpg");
+    Picture caterpillar = new Picture("t1.jpg");
     caterpillar.explore();
     caterpillar.mirrorVerticalRightToLeft();
     caterpillar.explore();
@@ -36,7 +36,7 @@ public class PictureTester
   
    public static void testMirrorHorizontal()
   {
-    Picture caterpillar = new Picture("caterpillar.jpg");
+    Picture caterpillar = new Picture("t1.jpg");
     caterpillar.explore();
     caterpillar.mirrorHorizontal();
     caterpillar.explore();
@@ -73,6 +73,8 @@ public class PictureTester
   snowman.mirrorArms();
   snowman.explore();
 }
+
+
   /** Main method for testing.  Every class can have a main
     * method in Java */
   public static void main(String[] args)
